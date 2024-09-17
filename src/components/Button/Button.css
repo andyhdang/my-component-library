@@ -10,10 +10,28 @@ button {
   font-size: 1rem;
   line-height: 1.5;
 
-  border: none;
-  color: black;
-  background-color: #ffffff;
+  border: 1px solid var(--color-fg-border-whisper);
+  color: var(--color-fg-default);
+  background: var(--color-bg-default);
 
+}
+
+/*---Button States ---*/
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--color-bg-hovered);
+  transition-duration: 50ms;
+}
+
+button:active {
+  background-color: var(--color-bg-active);
+  transition-duration: 50ms;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
 /*---Button Sizes ---*/
@@ -27,29 +45,46 @@ button.large {
 
 /*---Button Types ---*/
 button.default {
-  color: black;
-  background-color: #ffffff;
-  border: 1px solid black;
+  color: var(--color-fg-default);
+  background-color: var(--color-bg-default);
+}
+
+button.default:hover {
+  background-color: var(--color-bg-hovered);
 }
 
 button.primary {
-  color: #ffffff;
-  background-color: #646cff;
+  color: var(--color-fg-inverse);
+  background-color: var(--color-bg-brand-default);
+  border: 1px solid transparent;
+}
+
+button.primary:hover {
+  background-color: var(--color-bg-brand-hovered);
 }
 
 button.subtle {
-  background-color: #f9f9f9;
-  border: 1px solid #f9f9f9;
+  background-color: var(--color-bg-subtle);
+  border: none;
+}
+
+button.subtle:hover {
+  background-color: var(--color-bg-hovered);
 }
 
 button.dashed {
   border-style: dashed;
+  border-color: var(--color-fg-default);
 }
 
 button.link {
-  color: #646cff;
+  color: var(--color-fg-brand);
   background-color: transparent;
   border: none;
+}
+
+button.link:hover {
+  background-color: var(--color-bg-hovered);
 }
 
 /*---Button Shapes ---*/
@@ -62,29 +97,15 @@ button.circle {
   padding: 12px;
 }
 
-/*---Button States ---*/
-
-button:hover {
-  cursor: pointer;
-}
-
-button:active {
-  border-color: #535bf2;
-}
-
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-button:disabled {
+/* button:disabled {
   cursor: not-allowed;
   opacity: 0.5;
-}
+} */
 
 .disabled {
   pointer-events: none;
-  border: red;
+  border-color: var(--color-fg-disabled);
+  background: var(--color-bg-disabled);
 }
 
 .full-width {
