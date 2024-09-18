@@ -3,6 +3,7 @@ import './App.css'
 import Button from './components/Button/Button'
 import AddIcon from "@mui/icons-material/Add";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import '../tokens-dist/css/variables.css';
 
 
 function App() {

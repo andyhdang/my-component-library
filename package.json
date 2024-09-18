@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:tokens": "style-dictionary build --config style-dictionary.config.json",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -15,7 +16,8 @@
     "@mui/icons-material": "^6.1.0",
     "@mui/material": "^6.1.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "style-dictionary-utils": "^4.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -27,6 +29,8 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "style-dictionary": "^4.1.1",
     "vite": "^5.4.1"
   }
 }

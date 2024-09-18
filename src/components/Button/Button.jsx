@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Button.css';
 
+
 const Button = ({size='', label='Button', onClick, type='default', shape='rounded', leadingIcon, trailingIcon, isFullWidth, isDisabled}) => {
     return (
         <button className={`${size} ${type} ${shape} ${isFullWidth? 'full-width': ''} ${isDisabled? 'disabled':''}`} onClick={onClick}>
