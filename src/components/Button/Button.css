@@ -3,20 +3,20 @@ button {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  border-radius: 50px;
+  border-radius: 8px;
   padding: 12px 16px;
 
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
   line-height: 1.5;
 
-  border: 1px solid var(--color-fg-border-whisper);
+  border: 1px solid var(--color-fg-border-muted);
   color: var(--color-fg-default);
   background: var(--color-bg-default);
 
 }
 
-/*---Button States ---*/
+/*---Default Button States ---*/
 
 button:hover {
   cursor: pointer;
@@ -37,18 +37,10 @@ button:focus-visible {
 /*---Button Sizes ---*/
 button.small {
   padding: 4px 12px;
-}
-
-button.large {
-  padding: 16px 24px;
+  font-size: 16px;
 }
 
 /*---Button Types ---*/
-button.default {
-  color: var(--color-fg-default);
-  background-color: var(--color-bg-default);
-}
-
 button.default:hover {
   background-color: var(--color-bg-hovered);
 }
@@ -74,7 +66,6 @@ button.subtle:hover {
 
 button.dashed {
   border-style: dashed;
-  border-color: var(--color-fg-default);
 }
 
 button.link {
@@ -104,7 +95,8 @@ button.circle {
 
 .disabled {
   pointer-events: none;
-  border-color: var(--color-fg-disabled);
+  border: none;
+  color: var(--color-fg-disabled);
   background: var(--color-bg-disabled);
 }
 

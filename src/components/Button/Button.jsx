@@ -12,7 +12,7 @@ const Button = ({size='', label='Button', onClick, type='default', shape='rounde
 };
 
 Button.propTypes = {
-    size: PropTypes.oneOf(['small', 'large']),
+    size: PropTypes.oneOf(['small', 'default']),
     label: PropTypes.string,
     onClick: PropTypes.func,
     type: PropTypes.oneOf(['default', 'primary', 'subtle', 'dashed', 'text', 'link']),

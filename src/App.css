@@ -2,10 +2,9 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  
 }
 
-.examples-wrapper{
+.examples-wrapper {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -16,10 +15,30 @@
   border-radius: 8px;
 
   border: 1px solid #f0f2f5;
-  background-color: transparent;
+  background-color: #ffffff;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #efefef 25%,
+      transparent 25%,
+      transparent 75%,
+      #efefef 75%,
+      #efefef
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #efefef 25%,
+      #ffffff 25%,
+      #ffffff 75%,
+      #efefef 75%,
+      #efefef
+    );
+  background-position:
+    0 0,
+    10px 10px;
+  background-size: 20px 20px;
 }
 
-.code{
+.code {
   font-family: monospace;
   color: purple;
 }

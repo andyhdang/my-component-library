@@ -40,7 +40,7 @@ function App() {
 
         </div>
         <h4>Sizes</h4>
-        <p className='code'>small, default, large</p>
+        <p className='code'>small, default</p>
 
         <div className="examples-wrapper">
 
@@ -50,10 +50,6 @@ function App() {
           />
           <Button
             label='Default Size Button'
-          />
-          <Button
-            size='large'
-            label='Large Button'
           />
 
         </div>

@@ -118,11 +118,11 @@
   --color-fg-border-positive: var(--color-palette-green-150);
   --color-fg-border-warning: var(--color-palette-orange-150);
   --color-fg-border-negative: var(--color-palette-red-150);
+  --color-fg-border-muted: var(--color-palette-gray-500);
   --color-fg-disabled: var(--color-palette-gray-500);
   --color-fg-inverse: var(--color-palette-gray-25);
   --color-fg-default: var(--color-palette-gray-900);
   --color-fg-border-brand: var(--color-fg-brand);
   --color-fg-border-whisper: var(--color-fg-whisper);
-  --color-fg-border-muted: var(--color-fg-muted);
   --color-fg-border-default: var(--color-fg-default);
 }
