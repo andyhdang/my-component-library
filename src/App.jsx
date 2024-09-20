@@ -73,10 +73,6 @@ function App() {
             label='Disabled Button'
             isDisabled={true}
           />
-          <Button
-            label='Enabled Button'
-            isDisabled={false}
-          />
           </div>
 
           <h4>isFullWidth</h4>
@@ -85,10 +81,6 @@ function App() {
             <Button
               label='Full Width Button'
               isFullWidth={true}
-            />
-            <Button
-              label='Normal Button'
-              isFullWidth={false}
             />
           </div>
 
