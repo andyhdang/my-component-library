@@ -1,32 +1,35 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useContext, useEffect} from 'react';
 
-// Create the ThemeContext
-const ThemeContext = createContext();
+const ThemeContext = createContext(); // Create a context object that will hold the theme light or dark
 
-// Create a ThemeProvider component
-const ThemeProvider = ({ children }) => {
+export const useTheme = () => useContext(ThemeContext); // Create a custom hook to use the theme
+
+export const ThemeProvider = ({children}) => {
     const [theme, setTheme] = useState('light');
 
-    const toggleTheme = () => {
-        setTheme(prevTheme => prevTheme === 'light' ? 'dark' : 'light');
-    };
-
-    useEffect(() => {
+    useEffect(()=>{
         const storedTheme = localStorage.getItem('theme');
-        if (storedTheme) {
+        if(storedTheme){
             setTheme(storedTheme);
         }
-    }, []);
+    },[]); //'[]' makes sure that this effect runs only once when the component mounts
 
-    useEffect(() => {
-        localStorage.setItem('theme', theme);
-    }, [theme]);
+    useEffect(()=>{
+        document.body.className = theme;
+    },[theme]); //This effect runs whenever the theme changes
+
+    const toggleTheme = () => {
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        setTheme(newTheme);
+        localStorage.setItem('theme', newTheme);
+        console.log('Theme:', newTheme);
+    };
 
     return (
-        <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            {children}
+        <ThemeContext.Provider value={{theme, toggleTheme}}>
+            <div className={theme}>{children}</div>
         </ThemeContext.Provider>
-    );
-};
+    )
+}
 
-export { ThemeContext, ThemeProvider };
+

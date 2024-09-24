@@ -1,15 +1,19 @@
 import React from 'react';
 import './Toggle.css';
+import { useTheme } from '../../context/ThemeContext';
 
 const Toggle = () => {
-    // Component logic goes here
+    const { theme, toggleTheme } = useTheme();
 
     return (
-        // JSX markup goes here
         <div>
-            <label class="switch">
-                <input type="checkbox" />
-                <span class="slider round"></span>
+            <label className="switch">
+                <input 
+                type="checkbox"
+                checked={theme === 'dark'}
+                onChange={toggleTheme}
+                 />
+                <span className="slider round"></span>
             </label>
 
         </div>
