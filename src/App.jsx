@@ -1,16 +1,19 @@
 import React from 'react'
+
+//Styling imports
 import './App.css'
+import '../tokens-dist/css/variables.css';
+
+//Component imports
 import Button from './components/Button/Button'
 import AddIcon from "@mui/icons-material/Add";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
-import '../tokens-dist/css/variables.css';
 import Toggle from './components/Toggle/Toggle';
-
 
 function App() {
 
   return (
-    <>
+      <>
         <h1>My Component Library</h1>
         <Toggle></Toggle>
         <h2>Buttons</h2>
@@ -75,18 +78,18 @@ function App() {
             label='Disabled Button'
             isDisabled={true}
           />
-          </div>
+        </div>
 
-          <h4>isFullWidth</h4>
-          <p className='code'>true, false</p>
-          <div className="examples-wrapper">
-            <Button
-              label='Full Width Button'
-              isFullWidth={true}
-            />
-          </div>
+        <h4>isFullWidth</h4>
+        <p className='code'>true, false</p>
+        <div className="examples-wrapper">
+          <Button
+            label='Full Width Button'
+            isFullWidth={true}
+          />
+        </div>
 
-    </>
+      </>
   )
 }
 
