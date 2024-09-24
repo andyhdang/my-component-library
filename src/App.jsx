@@ -4,6 +4,7 @@ import Button from './components/Button/Button'
 import AddIcon from "@mui/icons-material/Add";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import '../tokens-dist/css/variables.css';
+import Toggle from './components/Toggle/Toggle';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
         <h1>My Component Library</h1>
+        <Toggle></Toggle>
         <h2>Buttons</h2>
         <h3>Examples</h3>
         <h4>Types</h4>
