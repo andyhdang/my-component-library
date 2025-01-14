@@ -4,14 +4,19 @@
   padding: 2rem;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 .examples-wrapper {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 
-  margin-top: 2rem;
-  padding: 1rem;
-  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  gap: 2rem;
   border-radius: 8px;
 
   border: 1px solid #f0f2f5;
@@ -41,4 +46,9 @@
 .code {
   font-family: monospace;
   color: purple;
+}
+
+h4{
+  margin-top: none;
+  margin-bottom: .5rem;
 }
