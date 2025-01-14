@@ -9,6 +9,7 @@ import Button from './components/Button/Button'
 import AddIcon from "@mui/icons-material/Add";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Toggle from './components/Toggle/Toggle';
+import Gallery from './components/Gallery/Gallery';
 
 function App() {
 
