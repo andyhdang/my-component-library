@@ -345,7 +345,7 @@
           "type": "color"
         },
         "muted": {
-          "value": "{color.palette.gray.500}",
+          "value": "{color.fg.muted}",
           "type": "color"
         },
         "whisper": {
@@ -417,7 +417,7 @@
       },
       "brand": {
         "default": {
-          "value": "{color.palette.blue.600}",
+          "value": "{color.palette.red.600}",
           "type": "color"
         },
         "enabled": {
