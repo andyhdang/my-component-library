@@ -10,6 +10,7 @@ import AddIcon from "@mui/icons-material/Add";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Toggle from './components/Toggle/Toggle';
 import Gallery from './components/Gallery/Gallery';
+import Card from './components/Card/Card';
 
 function App() {
 
@@ -89,6 +90,17 @@ function App() {
             isFullWidth={true}
           />
         </div>
+
+        <h2>Card</h2>
+        <h3>Examples</h3>
+        <h4>Default</h4>
+        <p className='code'>title, content</p>
+        <Card
+          title='Card Title'
+          content='Card Content'>
+
+        </Card>
+        
 
       </>
   )
