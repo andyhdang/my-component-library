@@ -18,6 +18,14 @@ function App() {
       <>
         <h1>My Component Library</h1>
         <Toggle></Toggle>
+        <Card
+          title='Toyota Crown Signia'
+          content='Experience the height of sophistication.'
+          img='src/assets/car images/2025-toyota-crown-signia-front-and-side-view.webp'
+          alt='placeholder'
+          detail='2025'
+          price='$43,590'>
+        </Card>
         <h2>Buttons</h2>
         <h3>Examples</h3>
         <h4>Types</h4>
@@ -95,11 +103,7 @@ function App() {
         <h3>Examples</h3>
         <h4>Default</h4>
         <p className='code'>title, content</p>
-        <Card
-          title='Card Title'
-          content='Card Content'>
-
-        </Card>
+        
         
 
       </>
