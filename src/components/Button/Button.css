@@ -7,7 +7,7 @@ button {
 
   /*size*/
   gap: 8px;
-  border-radius: 8px;
+  border-radius: var(--border-radius-medium);
   padding: 12px 16px;
 
   /*typography*/
@@ -94,11 +94,11 @@ button.link:hover {
 
 /*---Button Shapes ---*/
 button.rounded {
-  border-radius: 8px;
+  border-radius: var(--border-radius-medium);
 }
 
 button.pill {
-  border-radius: 500px;
+  border-radius: var(--border-radius-pill);
   padding: 8px 24px;
   font-weight: 600;
   font-size: 12px;
