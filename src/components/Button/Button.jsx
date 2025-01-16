@@ -19,7 +19,7 @@ Button.propTypes = {
     leadingIcon: PropTypes.element,
     trailingIcon: PropTypes.element,
     isFullWidth: PropTypes.bool,
-    shape: PropTypes.oneOf(['rounded', 'circular']),
+    shape: PropTypes.oneOf(['rounded', 'pill']),
     isDisabled: PropTypes.bool,
 };
 

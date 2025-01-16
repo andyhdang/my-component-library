@@ -10,6 +10,7 @@ import AddIcon from "@mui/icons-material/Add";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Toggle from './components/Toggle/Toggle';
 import Gallery from './components/Gallery/Gallery';
+import Card from './components/Card/Card';
 
 function App() {
 
@@ -17,6 +18,26 @@ function App() {
       <>
         <h1>My Component Library</h1>
         <Toggle></Toggle>
+        <Card
+          title='Toyota Crown Signia'
+          content='Experience the height of sophistication.'
+          img='src/assets/car images/2025-toyota-crown-signia-front-and-side-view.webp'
+          alt='Toyota Crown Signia'
+          detail='2025'
+          price='$43,590'
+          backgroundColor='#3C2C2A'
+          >
+        </Card>
+        <Card
+          title='bZ4X'
+          content='Powered up to own the day.'
+          img='src/assets/car images/2023-Toyota-bZ4X-front-three-quarter.avif'
+          alt='bZ4X'
+          detail='2025'
+          price='$37,070'
+          backgroundColor='#2B5B59'
+          >
+        </Card>
         <h2>Buttons</h2>
         <h3>Examples</h3>
         <h4>Types</h4>
@@ -89,6 +110,13 @@ function App() {
             isFullWidth={true}
           />
         </div>
+
+        <h2>Card</h2>
+        <h3>Examples</h3>
+        <h4>Default</h4>
+        <p className='code'>title, content</p>
+        
+        
 
       </>
   )
