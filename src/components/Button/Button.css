@@ -97,9 +97,11 @@ button.rounded {
   border-radius: 8px;
 }
 
-button.circle {
-  border-radius: 50%;
-  padding: 12px;
+button.pill {
+  border-radius: 500px;
+  padding: 8px 24px;
+  font-weight: 600;
+  font-size: 12px;
 }
 
 .full-width {

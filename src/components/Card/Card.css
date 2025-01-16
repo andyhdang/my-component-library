@@ -7,13 +7,11 @@
     width: 608px;
     height: 340px;
     margin: 0 auto;
+    margin-bottom: 1rem;
 
     /* typography */
     font-family: Lato, sans-serif;
     color: var(--color-fg-inverse);
-
-    /* colors */
-    background: #3C2C2A;
     
 }
 
@@ -27,7 +25,12 @@
     margin-bottom: 8px;
 }
 
+.card-price{
+    font-size: 24px;
+}
+
 .wrapper {
+    width: 50%;
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -35,11 +38,18 @@
 }
 
 img {
-    width: 60%;
+    width: 338px;
+    aspect-ratio: 1/1;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border: 1px solid var(--color-border-default);
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
