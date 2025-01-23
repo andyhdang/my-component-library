@@ -3,6 +3,25 @@
  */
 
 :root {
+  --font-weight-light: 300rem;
+  --font-weight-semibold: 600rem;
+  --font-weight-bold: 700rem;
+  --font-weight-normal: 400rem;
+  --font-size-1100: 52px;
+  --font-size-1000: 46px;
+  --font-size-900: 41px;
+  --font-size-800: 36px;
+  --font-size-700: 32px;
+  --font-size-600: 29px;
+  --font-size-500: 26px;
+  --font-size-400: 23px;
+  --font-size-300: 20px;
+  --font-size-200: 18px;
+  --font-size-100: 16px;
+  --font-size-50: 14px;
+  --font-size-25: 13px;
+  --font-family-sans: Lato;
+  --font-family-serif: Libre Baskerville;
   --color-palette-orange-1000: #543a13;
   --color-palette-orange-900: #775219;
   --color-palette-orange-800: #9c6a1f;
