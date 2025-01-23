@@ -81,6 +81,11 @@
   --color-palette-gray-100: #fafafa;
   --color-palette-gray-50: #fcfcfc;
   --color-palette-gray-25: #ffffff;
+  --border-radius-pill: 9999px;
+  --border-radius-large: 16px;
+  --border-radius-medium: 8px;
+  --border-radius-small: 4px;
+  --border-radius-none: 0px;
   --color-bg-whisper: var(--color-palette-gray-50);
   --color-bg-muted: var(--color-palette-gray-300);
   --color-bg-info-default: var(--color-palette-blue-700);

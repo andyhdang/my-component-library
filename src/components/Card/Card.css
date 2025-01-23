@@ -3,7 +3,7 @@
     display: flex;
 
     /* size */
-    border-radius: 8px;
+    border-radius: var(--border-radius-medium);
     width: 608px;
     height: 340px;
     margin: 0 auto;
@@ -43,8 +43,8 @@ img {
     height: 100%;
     object-fit: cover;
     overflow: hidden;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-top-left-radius: var(--border-radius-medium);
+    border-bottom-left-radius: var(--border-radius-medium);
     border: 1px solid var(--color-border-default);
 }
 
