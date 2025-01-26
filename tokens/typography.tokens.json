@@ -67,19 +67,19 @@
       "weight": {
         "normal": {
           "value": "400",
-          "type": "dimension"
+          "type": "number"
         },
         "bold": {
           "value": "700",
-          "type": "dimension"
+          "type": "number"
         },
         "semibold": {
           "value": "600",
-          "type": "dimension"
+          "type": "number"
         },
         "light": {
           "value": "300",
-          "type": "dimension"
+          "type": "number"
         }
       }
     }

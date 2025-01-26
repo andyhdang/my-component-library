@@ -3,10 +3,10 @@
  */
 
 :root {
-  --font-weight-light: 300rem;
-  --font-weight-semibold: 600rem;
-  --font-weight-bold: 700rem;
-  --font-weight-normal: 400rem;
+  --font-weight-light: 300;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
   --font-size-1100: 52px;
   --font-size-1000: 46px;
   --font-size-900: 41px;

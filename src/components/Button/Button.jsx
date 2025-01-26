@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Button.css';
+import './Button.scss';
 
 
 const Button = ({size='', label='Button', onClick, type='default', shape='rounded', leadingIcon, trailingIcon, isFullWidth, isDisabled}) => {

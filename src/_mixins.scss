@@ -1,0 +1,19 @@
+/* typography styles */
+
+@mixin system-sans-medium-bold {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-200);
+  font-style: normal;
+  font-weight: var(--font-weight-bold);
+  line-height: 150%; /* 27px */
+}
+
+@mixin system-sans-small-bold {
+  font-family: var(--font-family-sans, Lato);
+  font-size: var(--font-size-100, 16px);
+  font-style: normal;
+  font-weight: var(--font-weight-bold, 700);
+  line-height: 150%; /* 24px */
+}
+
+/* testing again again again */
