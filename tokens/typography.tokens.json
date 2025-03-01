@@ -1,0 +1,86 @@
+{
+    "font": {
+      "family": {
+        "serif": {
+          "value": "Libre Baskerville",
+          "type": "text"
+        },
+        "sans": {
+          "value": "Lato",
+          "type": "text"
+        }
+      },
+      "size": {
+        "25": {
+          "value": "13px",
+          "type": "dimension"
+        },
+        "50": {
+          "value": "14px",
+          "type": "dimension"
+        },
+        "100": {
+          "value": "16px",
+          "type": "dimension"
+        },
+        "200": {
+          "value": "18px",
+          "type": "dimension"
+        },
+        "300": {
+          "value": "20px",
+          "type": "dimension"
+        },
+        "400": {
+          "value": "23px",
+          "type": "dimension"
+        },
+        "500": {
+          "value": "26px",
+          "type": "dimension"
+        },
+        "600": {
+          "value": "29px",
+          "type": "dimension"
+        },
+        "700": {
+          "value": "32px",
+          "type": "dimension"
+        },
+        "800": {
+          "value": "36px",
+          "type": "dimension"
+        },
+        "900": {
+          "value": "41px",
+          "type": "dimension"
+        },
+        "1000": {
+          "value": "46px",
+          "type": "dimension"
+        },
+        "1100": {
+          "value": "52px",
+          "type": "dimension"
+        }
+      },
+      "weight": {
+        "normal": {
+          "value": "400",
+          "type": "number"
+        },
+        "bold": {
+          "value": "700",
+          "type": "number"
+        },
+        "semibold": {
+          "value": "600",
+          "type": "number"
+        },
+        "light": {
+          "value": "300",
+          "type": "number"
+        }
+      }
+    }
+  }
